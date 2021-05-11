@@ -1,0 +1,17 @@
+version: 0.1
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - npm install
+#  pre_build:
+#    commands:
+#      - yarn install
+artifacts:
+  files:
+    - '**/*'
+  base-directory: './'
+  post_build:
+    commands:
+      - npm run start
