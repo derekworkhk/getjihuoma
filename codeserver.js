@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
                 if (entry.entryName.match(/2018\.2/)){
                     // console.log('zip.readAsText '+zip.readAsText(entry));
                     done=1;
-                    ress.send('<code>'+zip.readAsText(entry)+'</code>')
+                    ress.send('<html lang="en"><head><title>getjihuoma</title></head><body style="margin:0"><code style="overflow-wrap: break-word;">'+zip.readAsText(entry)+'</code></body></html>')
                 }
             }
         });
