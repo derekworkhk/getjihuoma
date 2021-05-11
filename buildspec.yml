@@ -9,9 +9,9 @@ phases:
   build:
     commands:
       - echo "Building a Docker image.."
-      - docker build -t myImage . --file Dockerfile
+      - docker build -t getjihuoma . --file Dockerfile
       - echo "Tagging Docker image for ECR.."
-      - docker tag myImage ${ECR_REPO}:${CODEBUILD_SOURCE_VERSION}
+      - docker tag getjihuoma ${ECR_REPO}:${CODEBUILD_SOURCE_VERSION}
       - echo "Logging into ECR.."
       - $(aws ecr get-login --no-include-email)
       - echo "Pushing Docker image to ECR.."
