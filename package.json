@@ -1,0 +1,28 @@
+{
+  "name": "jihuoma01",
+  "version": "1.0.0",
+  "description": "Getting the jihuoma made easy",
+  "main": "codeserver.js",
+  "scripts": {
+    "dev": "node codeserver.js",
+    "start": "node codeserver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekworkhk/jihuoma01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derekworkhk/jihuoma01/issues"
+  },
+  "homepage": "https://github.com/derekworkhk/jihuoma01#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pako": "^2.0.3",
+    "request": "^2.88.2",
+    "unzip-js": "^1.0.0"
+  }
+}
