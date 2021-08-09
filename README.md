@@ -1,17 +1,17 @@
 # getjihuoma
 Getting the jihuoma made easy
 ## Install
-```aidl
+```
 git clone <%path to this repo%>
 cd getjihuoma
 npm install
 ```
 ## Getting jihuoma once
-```aidl
+```
 node getcode
 ```
 ## Starting a code server
-```aidl
+```
 nohup node codeserver > /dev/null 2>&1 &
 ```
 note: 
